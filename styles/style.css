@@ -70,7 +70,8 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 15px;
+  margin-inline-end: 2px;
 }
 
 .header__theme-menu-item {
@@ -78,7 +79,7 @@
 }
 
 .header__theme-menu-button {
-  padding: 1px 12px;
+  padding: 1px 11px;
   font-size: 18px;
   line-height: 100%;
   color: var(--btn-color);
@@ -105,6 +106,7 @@
 .header__theme-menu-button_active {
   pointer-events: none;
   outline: 1px solid var(--btn-color);
+  outline-offset: 2px;
 }
 
 .header__description {
