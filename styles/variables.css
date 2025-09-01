@@ -4,7 +4,7 @@
 */
 
 :root {
-  --cover-image: url("../images/cover-image.png");
+  --cover-image: url("../images/cover-image-dark.png");
   --cover-color: #000028;
   --rectangle: url("../images/rectangle-dark.png");
 
@@ -34,6 +34,7 @@
   }
 
   .header__theme-menu {
+    margin-inline-end: 20px;
     grid-row: 1;
     grid-column: 2;
   }
@@ -48,6 +49,11 @@
     grid-column: 2;
     margin-block-start: 162px;
     margin-inline-end: 18px;
+  }
+
+  .header__decorative-word {
+    top: 23px;
+    right: 45px;
   }
 
   .decorated-zone::before {
@@ -111,7 +117,7 @@
     grid-column: 3;
   }
 
-  .images__item-image:nth-child(4) {
+  .images__item-image:nth-child(3) {
     grid-row: 2 / 4;
     grid-column: 1;
   }
@@ -173,7 +179,7 @@
     display: flex;
     flex-direction: row;
     gap: 13px;
-    padding-block: 9px;
+    padding-block-start: 20px;
   }
 
   .content {
@@ -228,7 +234,7 @@
     grid-column: 3;
   }
 
-  .images__item-image:nth-child(4) {
+  .images__item-image:nth-child(3) {
     grid-row: 2 / 4;
     grid-column: 1;
   }
