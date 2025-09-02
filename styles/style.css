@@ -163,7 +163,6 @@
 .content__section-images {
   display: grid;
   grid-template-columns: 1;
-  gap: 10px;
   margin-block-end: 40px;
   padding-inline: 10px;
   font-size: 18px;
@@ -297,7 +296,6 @@
   }
 
   .content__section-images {
-    gap: 20px;
     padding-inline: 20px;
     margin-block-end: 60px;
   }
@@ -407,7 +405,6 @@
   }
 
   .content__section-images {
-    gap: 20px;
     padding-inline: 20px;
     margin-block-end: 60px;
   }
