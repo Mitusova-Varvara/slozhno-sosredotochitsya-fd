@@ -11,7 +11,6 @@
   */
   --cover-image: url("../images/cover-image-light.png");
   --cover-color: #fff1f7;
-  --rectangle: url("../images/rectangle-light.png");
 
   --accent-color: #ff8dcb;
   --btn-color: #353430;
@@ -30,7 +29,6 @@
   :root {
     --cover-image: url("../images/cover-image-light.png");
     --cover-color: #fff1f7;
-    --rectangle: url("../images/rectangle-light.png");
 
     --accent-color: #ff8dcb;
     --btn-color: #353430;
@@ -39,5 +37,9 @@
     --main-text-color: #353430;
     --accent-text-color: #353430;
     --list-title-color: #353430;
+  }
+
+  :root.theme-auto .header__decorative-word {
+    display: none;
   }
 }
