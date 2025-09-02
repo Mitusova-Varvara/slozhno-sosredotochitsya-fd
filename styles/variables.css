@@ -10,6 +10,7 @@
 
   --min-height: 668px;
   --fs-accent-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --page-padding: 10px;
 
   --accent-color: #ff0070;
   --btn-color: #ff0070;
@@ -24,6 +25,7 @@
   :root {
     --min-height: 1024px;
     --fs-accent-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --page-padding: 20px;
   }
 
   .header {
@@ -69,7 +71,6 @@
 
   .content {
     margin-block-end: 80px;
-    padding-inline: 20px;
   }
 
   .question__section {
@@ -133,6 +134,7 @@
   :root {
     --min-height: 768px;
     --fs-accent-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --page-padding: 20px;
   }
 
   .header {
@@ -173,25 +175,25 @@
     grid-row: 1;
     grid-column: 2 / 4;
     justify-content: center;
-    align-items: start;
-    margin-block-start: 20px;
+    align-self: start;
+    margin-block-start: 19px;
     margin-inline-end: 0px;
+    padding-block: 0px;
   }
 
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
     text-align: center;
-    gap: 16px;
+    gap: 10px;
   }
 
   .header__theme-menu-button {
-    padding: 1px 10px;
+    padding: 2px 13px 4px;
   }
 
   .content {
     margin-block-end: 80px;
-    padding-inline: 20px;
   }
 
   .question__section {
